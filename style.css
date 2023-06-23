@@ -137,6 +137,16 @@ nav ul li {
     }
 }
 
+@media (max-width: 360px) {
+    .icons {
+        left: 100px;
+    }
+
+    .songInfo {
+        top: 13vw;
+    }
+}
+
 @media (max-width: 320px) {
     .icons {
         position: relative;
@@ -147,7 +157,8 @@ nav ul li {
         left: 10vw;
         top: 13vw;
     }
-    .songName{
+
+    .songName {
         font-size: 13px;
         width: 32vw;
     }
